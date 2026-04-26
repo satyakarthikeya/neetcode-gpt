@@ -12,5 +12,5 @@ class Solution:
     def relu(self, z: NDArray[np.float64]) -> NDArray[np.float64]:
         # z is a 1D NumPy array
         # Formula: max(0, z) element-wise
-        return np.round(np.maximum(0,z),5)
+        return np.maximum(0,z)
         
